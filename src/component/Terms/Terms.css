@@ -1,0 +1,33 @@
+/* Terms.css */
+
+.term-container {
+    position: relative;
+    height: 90rem; /* Set the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/geiranger.jpg'); /* Fix here */
+    background-size: cover; /* or 'contain' based on your preference */
+  }
+  
+  h2 {
+    color: white;
+    font-size: 2em; /* You can adjust the font size as needed */
+    text-align: center;
+    z-index: 1;
+  }
+  
+  
+  
+  .term-button {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    border-radius: 40px;
+    width: 35%;
+  }
+  .term-button2 {
+    margin-top: 20px;
+  }
+  

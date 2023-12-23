@@ -1,0 +1,21 @@
+/* .LoginPage.css */
+
+.Login-container {
+    text-align: center;
+    position: relative; /* Position relative for absolute positioning within it */
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the text is above the image */
+  }
+  
+  .Login-container img {
+    width: 100%; /* Take up the full width of its container */
+    height: 100%; /* Maintain aspect ratio */
+   
+  }
+  

@@ -1,0 +1,12 @@
+
+.card-term-container {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: fit-content;
+    background-color:white;
+  }
+  

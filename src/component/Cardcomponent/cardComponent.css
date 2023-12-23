@@ -1,0 +1,78 @@
+/* cardComponent.css */
+
+
+.card-container {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .text-container {
+    width: 48%;
+    top: 50%;
+    height: 60%;
+  }
+  
+  .card-container h2 {
+    color: green; /* Set your desired text color */
+    font-size: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: #333; /* Set your desired label text color */
+    font-weight: 10px;
+  }
+  
+  input {
+    width: 78%;
+    padding: 20px; /* Increase the padding to adjust the input size */
+    border: 1px solid #ccc; /* Set your desired input border color */
+    border-radius: 27px;
+
+  }
+  
+  .additional-options {
+    margin-top: 15px;
+  }
+  
+  button {
+    padding: 15px 30px; /* Adjust the padding to increase the button size */
+    margin-right: 10px;
+    border: 1px solid #07a31f;
+    background-color: #07a31f;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 30%; /* Set to auto f
+  }
+  
+  button:hover {
+    background-color: #05b01f; /* Set your desired button hover background color */
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start of the container */
+    margin-left: 50px; /* Adjust the margin as needed */
+  }
+  
+  .remember-me label {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+  
